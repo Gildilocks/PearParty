@@ -1,0 +1,24 @@
+{
+  "name": "pear-party",
+  "version": "1.0.0",
+  "description": "collect data about your pears",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gildilocks/PearParty.git"
+  },
+  "keywords": [
+    "pear",
+    "pair",
+    "party"
+  ],
+  "author": "gildilocks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gildilocks/PearParty/issues"
+  },
+  "homepage": "https://github.com/Gildilocks/PearParty#readme"
+}
