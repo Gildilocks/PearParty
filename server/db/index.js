@@ -26,5 +26,30 @@ var Sprint = db.define('Sprint', {
 });
 
 var Drivetime = db.define('Drivetime', {
-	drivetime: DataTypes.INTEGER.UNSIGNED
-})
+	drivetime: Sequelize.INTEGER.UNSIGNED
+});
+
+var Feedback = db.define('Feedback', {
+  text: Sequelize.STRING(250)
+});
+
+//define relationships here
+
+//MORE RELATIONSHIPS PLS
+
+//sync it all up
+User.sync();
+Group.sync();
+Session.sync();
+Pair.sync();
+Sprint.sync();
+Drivetime.sync();
+Feedback.sync();
+
+exports.User = User;
+exports.Group = Group;
+exports.Session = Session;
+exports.Pair = Pair;
+exports.Sprint = Sprint;
+exports.Drivetime = Drivetime;
+exports.Feedback = Feedback;
