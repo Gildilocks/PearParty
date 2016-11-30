@@ -6,7 +6,7 @@ var db = new Sequelize('pears', 'root', null);
 var User = db.define('User', {
 	username: {type: Sequelize.STRING, allowNull: false},
 	firstName: Sequelize.STRING,
-	lastName: Sequelize.String
+	lastName: Sequelize.STRING
 });
 
 var Group = db.define('Group', {

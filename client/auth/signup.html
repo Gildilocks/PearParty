@@ -1,0 +1,16 @@
+<div id='signup'>
+  <h1>Signup For the PARTY!</h1>
+  <form name="signupForm" ng-submit='signup()'>
+    <select name="location">
+      <option value="SF">SF</option>
+      <option value="NYC">NYC</option>
+      <option value="LA">LA</option>
+      <option value="AUS">AUS</option>
+    </select>
+    <input type='number' ng-model='group.cohortnumber'>
+    <input type='text' ng-model='user.username'>
+    <input type="password" ng-model='user.password'>
+    <button>signup</button>
+  </form>
+  <a href="#/signin">Already signed up? <strong>Signin</strong> ...</a>
+</div>
