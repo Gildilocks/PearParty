@@ -1,11 +1,11 @@
 
 
 <!DOCTYPE html>
-<html ng-app='pearparty'>
+<html ng-app='pearParty'>
   <head>
     <meta charset="utf-8" />
     <title>EAT YOUR PEAR</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="app/styles/style.css" />
   </head>
   <body>
     <h1>Pear Party!!!!!!!!</h1>
@@ -13,10 +13,15 @@
     <!-- the ng-view directive is where our templates will be loaded into when naviagted to -->
     <div ng-view></div>
 
-    <script src="lib/angular/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
     <!-- more dependency scripts here -->
 
-    <script src="app/auth/auth.js"></script>
+    
+    <script src="app/controllers/currentsession.js"></script>
+    <script src="app/controllers/pastsessions.js"></script>
+    <script src="app/services/services.js"></script>
+    <script src="app/app.js"></script>
     <!-- more app scripts here -->
     
   </body>

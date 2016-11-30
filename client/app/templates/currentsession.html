@@ -1,0 +1,30 @@
+<div id='container'>
+  <div class="users">
+    <ul>
+      <li>
+        {{primUser.name}}:{{primUser.drivePercent}}%
+      </li>
+      <li>
+        {{secondUser.name}}:{{secondUser.drivePercent}}%
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="options">
+  <form name='Switch' ng-submit="switch()">
+      <button type="submit" value="switch">
+        SWITCH!
+      </button>
+  </form>
+  <form name='pearForm' ng-submit="takeBreak()">
+      <button type="submit" value="break">
+        Take a break!
+      </button>
+  </form>
+  <form name='pearForm' ng-submit="finishPear()">
+      <button type="submit" value="finish">
+        Finish the pear!
+      </button>
+  </form>
+ 
+</div>

@@ -1,0 +1,22 @@
+<div id='container'>
+  <nav class="navigation">
+    <ul>
+      <li>
+          <a href="#/start">Cut open a fresh pear!</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<input type='text' ng-model='search' placeholder='filter' />
+<div class="links">
+ <!--  <div class="link"
+      ng-repeat="session in sessions | filter:search | orderBy:'created_at'"> -->
+    <div class="info">
+      <div class="visits">
+        <span class="count">{{ sessions }}</span>
+      </div>
+      <div class="title">{{ sessions }}</div>
+      <div class="original">{{ sessions}}</div>
+    </div>
+  </div>
+</div>

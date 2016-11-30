@@ -1,0 +1,17 @@
+<div class="creator">
+    <form name='pearForm' ng-submit="initPear()" novalidate>
+      <input name='primaryUser'
+        ng-model="primUser.name"
+        placeholder="Enter your name here" required/>
+      <input name='secondUser'
+        ng-model="secondUser.name"
+        placeholder="Enter your partner's name here" required/>
+      <input name='project'
+        ng-model="sprint"
+        placeholder="Enter the name of your project here"/>
+
+      <button type="submit" value="Start" ng-disabled='pearForm.$invalid'>
+        START!!!!
+      </button>
+    </form>
+</div>
